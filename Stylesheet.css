@@ -1,0 +1,149 @@
+/*THIS IS THE START OF THE CSS RESET*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*THIS IS THE END OF THE CSS RESET*/
+
+
+
+
+
+
+#navbar {
+	height: 30px;
+	width: 100%;
+	background-color:#2d2d2d;
+	position: fixed;
+	padding: 6px 0px 0px 8px;
+}
+
+#navbar a {
+	padding: 5px 10px 5px 10px;
+	font-size:13.5px;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	color: #cccccc;
+	text-decoration:none;
+	}
+
+#navbar a:hover {
+	color: #ffffff;
+	}
+
+#logo {
+	text-align:center;
+	padding: 200px 0px 20px 0px;
+	}
+
+#logo img {
+	height:95px;
+	width: 275px;
+	}
+	
+#search {
+	text-align:center;
+	padding: 10px;
+	}
+	
+#searchbox {
+	height:25px;
+	width:55%;
+	font-size:16px;
+	font-family:arial, sans-serif;
+	}
+	
+#googlebuttons {
+	text-align:center;
+	height: 50px;
+	width: 100%;
+	margin: 10px 10px 0px 0px;
+	padding: 10px;
+	}
+
+.button {
+	border: 1px solid #c6c6c6;
+	padding: 10px;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	color: #222222;
+	font-size: 12px;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #f0f0f0;
+	}
+
+.button:hover {
+	box-shadow: 2px 2px 0px #a8a8a8;
+	}
+
+#footer {
+	position:absolute;
+	clear:right;
+	bottom:0;
+	text-align:right;
+	height:28px;
+	width:100%;
+	border-top:1px solid #c8c8c8;
+	padding: 5px 0px 5px 0px;
+	}
+	
+#footer a {
+	text-decoration:none;
+	font-family:arial, sans-serif;
+	color: #787878;
+	font-size:13,5px;
+	padding: 7px;
+	}
+
+#footer a:hover {
+	text-decoration:underline;
+	}
+
+
